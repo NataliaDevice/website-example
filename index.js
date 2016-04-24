@@ -23,7 +23,7 @@ app.get('/toggle', function(req, res) {
   var led = parseInt(query.led)
   var state = query.state
   nataliaCilent.toggleLED(led, state, function() {
-    res.status(200)
+    res.sendStatus(200)
   })
 })
 

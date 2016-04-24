@@ -18,10 +18,10 @@ app.get('/', function(req, res) {
 })
 
 app.get('/toggle', function(req, res) {
-  query = req.query
+  var query = req.query
   console.log(query)
-  led = parseInt(query.led)
-  state = query.state
+  var led = parseInt(query.led)
+  var state = query.state
   nataliaCilent.toggleLED(led, state, function() {
     res.status(200)
   })

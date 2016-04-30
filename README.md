@@ -1,5 +1,5 @@
 # Natalie website example using Node.js wrapper
-
+![](/public/img/website-example.png)
 Clone it
 ```
 git clone https://github.com/NataliaDevice/website-example.git
